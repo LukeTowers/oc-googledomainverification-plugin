@@ -4,7 +4,7 @@ use Backend;
 use System\Classes\PluginBase;
 
 /**
- * Google Domain Verification Plugin Information File
+ * GoogleDomainVerification Plugin Information File
  */
 class Plugin extends PluginBase
 {
