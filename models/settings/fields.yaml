@@ -1,0 +1,21 @@
+# ===================================
+#  Settings Field Definitions
+# ===================================
+
+fields:
+
+    verification_codes:
+        label: luketowers.googledomainverification::lang.settings.verification_codes
+        comment: luketowers.googledomainverification::lang.settings.code_comment
+        type: repeater
+        prompt: luketowers.googledomainverification::lang.settings.code_prompt
+        form:
+            fields:
+                description:
+                    span: left
+                    label: luketowers.googledomainverification::lang.settings.code_description
+                code:
+                    span: right
+                    required: true
+                    label: luketowers.googledomainverification::lang.settings.code
+                    placeholder: luketowers.googledomainverification::lang.settings.code_placeholder
