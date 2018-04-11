@@ -37,12 +37,12 @@ class Plugin extends PluginBase
             ],
         ];
     }
-    
+
     /**
-	 * Registers the settings used by this plugin
-	 *
-	 * @return array
-	 */
+     * Registers the settings used by this plugin
+     *
+     * @return array
+     */
     public function registerSettings()
     {
         return [

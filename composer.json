@@ -1,0 +1,17 @@
+{
+    "name": "luketowers/oc-googledomainverification-plugin",
+    "type": "october-plugin",
+    "description": "Provide responses to Google Domain Verification requests",
+    "homepage": "https://github.com/LukeTowers/oc-googledomainverification-plugin",
+    "keywords": ["october", "octobercms", "google", "google domain verification"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Towers",
+            "email": "octobercms@luketowers.ca"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
